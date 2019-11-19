@@ -1,6 +1,98 @@
+<!DOCTYPE html>
 <html>
-<head></head>
-    <body>
-    <h1>How to play BounceWars</h1>
+    <head>
+        <title>Bounce Wars!</title>
+        
+        <style>
+            body, html {
+            height: 100%;
+            margin: 0;
+            }
+
+            .bgimg-1, .bgimg-2, .bgimg-3 {
+            position: relative;
+            opacity: 1;
+            background-position: center;
+            background-repeat:repeat;
+            background-attachment:fixed;
+            background-size: cover;
+            overflow:scroll;
+            }
+            .bgimg-1 {
+            background-image: url("https://ak6.picdn.net/shutterstock/videos/17946946/thumb/1.jpg");
+            height: 100%;
+            padding: 2%;
+            opacity: 1;
+            }
+        </style>
+    </head>
+    <body class="bgimg-1">
+            <h1>Bounce Wars</h1>
+            <p>The bouncing chess strategy game</p>
+            <p>Check our progress at <strong><a href="https://github.com/kmc-jp/BounceWars">github</a></strong>.</p>
+            <br>
+            <h2 id="introduction">Introduction</h2>
+            <p>Aim and bounce to destroy your enemy! Utilize cooldowns and environment to seize your victory! A 5-minute strategy game for you and your friends.</p>
+            <h2 id="startup">Startup</h2>
+            <ol>
+            <li><p>Run BounceWars.exe on windows, or BounceWars.app for mac, to start the game. </p>
+            </li>
+            <li><p>Two players are required to start the game, and their computers shall be sharing the same network. The game uses TCP protocol on port 5000, please make sure the firewall allows the connections before starting your game. </p>
+            </li>
+            <li><p>Once the game is started, one player shall start the game as host, and the other shall start as client. As the client, you need to input the host's local ip address, which will be shown on the top left corner of host's lobby scene. When the client is connected, press "Ready" button, then host can press "Start" to start the game.</p>
+            </li>
+            </ol>
+            <h2 id="operations">Operations</h2>
+            <ul>
+            <li><p>Drag the chess with left-mouse-button to launch the chess. The chess will move in the opposite direction, like shooting an arrow. Bounce or shoot at enemy chess to make damage, or push them out of the map. Last one standing wins.</p>
+            </li>
+            <li><p>Hover on the chess piece to reveal the menu. Click the upmost button to switch attack mode. Click the middle button to use items.</p>
+            </li>
+            <li><p>Mouse wheel to zoom camera, WASD or hold mid-mouse-button to move camera.</p>
+            </li>
+            </ul>
+            <h2 id="acknowledgment">Acknowledgment</h2>
+            <p>The game is using the following materials:</p>
+            <blockquote>
+            <p>Some item and emotion icons are from icons8.com.</p>
+            <p>Sound effects are from on-jin.com.</p>
+            <p>Musics are from wingless-seraph.net.</p>
+            <p>Thanks to Brackeys’ Youtube channel for ideas on using Unity.
+            The game is still under development, so there might be a bunch of potential bugs :(</p>
+            <p>Contact xinzeyang.mkmw@gmail.com for bug reporting or any questions.</p>
+            </blockquote>
+            <h2 id="contributions">Contributions</h2>
+            <ul>
+            <li><p>Director &amp; Main Programmer</p>
+            <blockquote>
+            <p>Schin</p>
+            </blockquote>
+            </li>
+            </ul>
+            <ul>
+            <li><p>Main Programmer</p>
+            <blockquote>
+            <p>Hiroaki</p>
+            </blockquote>
+            <blockquote>
+            <p>Tinaxd</p>
+            </blockquote>
+            </li>
+            </ul>
+            <ul>
+            <li><p>Programmer</p>
+            <blockquote>
+            <p>Marot</p>
+            </blockquote>
+            </li>
+            <li><p>Character Design</p>
+            <blockquote>
+            <p>Sagin</p>
+            </blockquote>
+            </li>
+            <li><p>Special thanks to Kata, leader of this year’s Minge project.</p>
+            </li>
+            </ul>
+
     </body>
 </html>
